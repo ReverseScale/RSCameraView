@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34140BDF1F569D4800671195 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34140BDE1F569D4800671195 /* main.m */; };
+		34140BE21F569D4800671195 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34140BE11F569D4800671195 /* AppDelegate.m */; };
+		34140BE51F569D4800671195 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34140BE41F569D4800671195 /* ViewController.m */; };
+		34140BE81F569D4800671195 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34140BE61F569D4800671195 /* Main.storyboard */; };
+		34140BEA1F569D4800671195 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34140BE91F569D4800671195 /* Assets.xcassets */; };
+		34140BED1F569D4800671195 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34140BEB1F569D4800671195 /* LaunchScreen.storyboard */; };
+		34140BF81F569D4900671195 /* RSCameraViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34140BF71F569D4900671195 /* RSCameraViewTests.m */; };
+		34140C031F569D4900671195 /* RSCameraViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34140C021F569D4900671195 /* RSCameraViewUITests.m */; };
+		34140C121F569D8400671195 /* RSCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34140C111F569D8400671195 /* RSCameraView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34140BF41F569D4900671195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34140BD21F569D4800671195 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34140BD91F569D4800671195;
+			remoteInfo = RSCameraView;
+		};
+		34140BFF1F569D4900671195 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34140BD21F569D4800671195 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34140BD91F569D4800671195;
+			remoteInfo = RSCameraView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34140BDA1F569D4800671195 /* RSCameraView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSCameraView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34140BDE1F569D4800671195 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34140BE01F569D4800671195 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		34140BE11F569D4800671195 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		34140BE31F569D4800671195 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		34140BE41F569D4800671195 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		34140BE71F569D4800671195 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34140BE91F569D4800671195 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34140BEC1F569D4800671195 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34140BEE1F569D4800671195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34140BF31F569D4900671195 /* RSCameraViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSCameraViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34140BF71F569D4900671195 /* RSCameraViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSCameraViewTests.m; sourceTree = "<group>"; };
+		34140BF91F569D4900671195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34140BFE1F569D4900671195 /* RSCameraViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSCameraViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34140C021F569D4900671195 /* RSCameraViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSCameraViewUITests.m; sourceTree = "<group>"; };
+		34140C041F569D4900671195 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34140C101F569D8400671195 /* RSCameraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSCameraView.h; sourceTree = "<group>"; };
+		34140C111F569D8400671195 /* RSCameraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSCameraView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34140BD71F569D4800671195 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34140BF01F569D4900671195 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34140BFB1F569D4900671195 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34140BD11F569D4800671195 = {
+			isa = PBXGroup;
+			children = (
+				34140BDC1F569D4800671195 /* RSCameraView */,
+				34140BF61F569D4900671195 /* RSCameraViewTests */,
+				34140C011F569D4900671195 /* RSCameraViewUITests */,
+				34140BDB1F569D4800671195 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34140BDB1F569D4800671195 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34140BDA1F569D4800671195 /* RSCameraView.app */,
+				34140BF31F569D4900671195 /* RSCameraViewTests.xctest */,
+				34140BFE1F569D4900671195 /* RSCameraViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34140BDC1F569D4800671195 /* RSCameraView */ = {
+			isa = PBXGroup;
+			children = (
+				34140BE01F569D4800671195 /* AppDelegate.h */,
+				34140BE11F569D4800671195 /* AppDelegate.m */,
+				34140BE31F569D4800671195 /* ViewController.h */,
+				34140BE41F569D4800671195 /* ViewController.m */,
+				34140C101F569D8400671195 /* RSCameraView.h */,
+				34140C111F569D8400671195 /* RSCameraView.m */,
+				34140BE61F569D4800671195 /* Main.storyboard */,
+				34140BE91F569D4800671195 /* Assets.xcassets */,
+				34140BEB1F569D4800671195 /* LaunchScreen.storyboard */,
+				34140BEE1F569D4800671195 /* Info.plist */,
+				34140BDD1F569D4800671195 /* Supporting Files */,
+			);
+			path = RSCameraView;
+			sourceTree = "<group>";
+		};
+		34140BDD1F569D4800671195 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34140BDE1F569D4800671195 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34140BF61F569D4900671195 /* RSCameraViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				34140BF71F569D4900671195 /* RSCameraViewTests.m */,
+				34140BF91F569D4900671195 /* Info.plist */,
+			);
+			path = RSCameraViewTests;
+			sourceTree = "<group>";
+		};
+		34140C011F569D4900671195 /* RSCameraViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34140C021F569D4900671195 /* RSCameraViewUITests.m */,
+				34140C041F569D4900671195 /* Info.plist */,
+			);
+			path = RSCameraViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34140BD91F569D4800671195 /* RSCameraView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34140C071F569D4900671195 /* Build configuration list for PBXNativeTarget "RSCameraView" */;
+			buildPhases = (
+				34140BD61F569D4800671195 /* Sources */,
+				34140BD71F569D4800671195 /* Frameworks */,
+				34140BD81F569D4800671195 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSCameraView;
+			productName = RSCameraView;
+			productReference = 34140BDA1F569D4800671195 /* RSCameraView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34140BF21F569D4900671195 /* RSCameraViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34140C0A1F569D4900671195 /* Build configuration list for PBXNativeTarget "RSCameraViewTests" */;
+			buildPhases = (
+				34140BEF1F569D4900671195 /* Sources */,
+				34140BF01F569D4900671195 /* Frameworks */,
+				34140BF11F569D4900671195 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34140BF51F569D4900671195 /* PBXTargetDependency */,
+			);
+			name = RSCameraViewTests;
+			productName = RSCameraViewTests;
+			productReference = 34140BF31F569D4900671195 /* RSCameraViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34140BFD1F569D4900671195 /* RSCameraViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34140C0D1F569D4900671195 /* Build configuration list for PBXNativeTarget "RSCameraViewUITests" */;
+			buildPhases = (
+				34140BFA1F569D4900671195 /* Sources */,
+				34140BFB1F569D4900671195 /* Frameworks */,
+				34140BFC1F569D4900671195 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34140C001F569D4900671195 /* PBXTargetDependency */,
+			);
+			name = RSCameraViewUITests;
+			productName = RSCameraViewUITests;
+			productReference = 34140BFE1F569D4900671195 /* RSCameraViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34140BD21F569D4800671195 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = StevenXie;
+				TargetAttributes = {
+					34140BD91F569D4800671195 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7QT42R489Z;
+						ProvisioningStyle = Automatic;
+					};
+					34140BF21F569D4900671195 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 34140BD91F569D4800671195;
+					};
+					34140BFD1F569D4900671195 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 34140BD91F569D4800671195;
+					};
+				};
+			};
+			buildConfigurationList = 34140BD51F569D4800671195 /* Build configuration list for PBXProject "RSCameraView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34140BD11F569D4800671195;
+			productRefGroup = 34140BDB1F569D4800671195 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34140BD91F569D4800671195 /* RSCameraView */,
+				34140BF21F569D4900671195 /* RSCameraViewTests */,
+				34140BFD1F569D4900671195 /* RSCameraViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34140BD81F569D4800671195 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34140BED1F569D4800671195 /* LaunchScreen.storyboard in Resources */,
+				34140BEA1F569D4800671195 /* Assets.xcassets in Resources */,
+				34140BE81F569D4800671195 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34140BF11F569D4900671195 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34140BFC1F569D4900671195 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34140BD61F569D4800671195 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34140BE51F569D4800671195 /* ViewController.m in Sources */,
+				34140BE21F569D4800671195 /* AppDelegate.m in Sources */,
+				34140C121F569D8400671195 /* RSCameraView.m in Sources */,
+				34140BDF1F569D4800671195 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34140BEF1F569D4900671195 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34140BF81F569D4900671195 /* RSCameraViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34140BFA1F569D4900671195 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34140C031F569D4900671195 /* RSCameraViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34140BF51F569D4900671195 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34140BD91F569D4800671195 /* RSCameraView */;
+			targetProxy = 34140BF41F569D4900671195 /* PBXContainerItemProxy */;
+		};
+		34140C001F569D4900671195 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34140BD91F569D4800671195 /* RSCameraView */;
+			targetProxy = 34140BFF1F569D4900671195 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34140BE61F569D4800671195 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34140BE71F569D4800671195 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34140BEB1F569D4800671195 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34140BEC1F569D4800671195 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34140C051F569D4900671195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		34140C061F569D4900671195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34140C081F569D4900671195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 7QT42R489Z;
+				INFOPLIST_FILE = RSCameraView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSCameraView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		34140C091F569D4900671195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 7QT42R489Z;
+				INFOPLIST_FILE = RSCameraView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSCameraView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		34140C0B1F569D4900671195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RSCameraViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSCameraViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSCameraView.app/RSCameraView";
+			};
+			name = Debug;
+		};
+		34140C0C1F569D4900671195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RSCameraViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSCameraViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSCameraView.app/RSCameraView";
+			};
+			name = Release;
+		};
+		34140C0E1F569D4900671195 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RSCameraViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSCameraViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RSCameraView;
+			};
+			name = Debug;
+		};
+		34140C0F1F569D4900671195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RSCameraViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = R.S.RSCameraViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RSCameraView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34140BD51F569D4800671195 /* Build configuration list for PBXProject "RSCameraView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34140C051F569D4900671195 /* Debug */,
+				34140C061F569D4900671195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34140C071F569D4900671195 /* Build configuration list for PBXNativeTarget "RSCameraView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34140C081F569D4900671195 /* Debug */,
+				34140C091F569D4900671195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		34140C0A1F569D4900671195 /* Build configuration list for PBXNativeTarget "RSCameraViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34140C0B1F569D4900671195 /* Debug */,
+				34140C0C1F569D4900671195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		34140C0D1F569D4900671195 /* Build configuration list for PBXNativeTarget "RSCameraViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34140C0E1F569D4900671195 /* Debug */,
+				34140C0F1F569D4900671195 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34140BD21F569D4800671195 /* Project object */;
+}
